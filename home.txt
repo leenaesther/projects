@@ -1,0 +1,80 @@
+<h2 style="font-family: Arial; color:#2c3e50;">Home</h2>
+
+<style>
+  .hero {
+    width: 100%;
+    height: 280px;
+    background-image: url('https://i.pinimg.com/736x/ba/6a/7d/ba6a7d5dc3fb018e66fed43157531244.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .feature-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+
+  .feature-card img {
+    width: 170px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+</style>
+
+<div class="hero"></div>
+
+<p style="font-size: 17px; line-height: 1.6;">
+  Welcome to the <strong>E-Shopping Portal</strong>! Your one-stop destination for 
+  online shopping. Explore a wide variety of retailers, compare product prices, 
+  track your deliveries, and enjoy secure payment options.
+</p>
+
+<h3 style="margin-top: 25px; color:#34495e;">What You Can Do Here</h3>
+
+<div class="feature-section">
+
+  <div class="feature-card" onclick="loadData('retailersb')">
+    <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202209/sale_0-sixteen_nine.jpg?size=948:533">
+    <h4>Browse Retailers</h4>
+    <p>Explore top online stores in one place.</p>
+  </div>
+
+  <div class="feature-card" onclick="loadData('productsb')">
+    <img src="https://img.freepik.com/premium-photo/collection-various-products-including-one-products_950347-4024.jpg?w=2000">
+    <h4>Latest Products</h4>
+    <p>See new arrivals, deals, and offers.</p>
+  </div>
+
+  <div class="feature-card" onclick="loadData('compareb')">
+    <img src="https://landofcoder.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/a/magento-2-price-comparison-main.png">
+    <h4>Compare Prices</h4>
+    <p>Find the best price across sellers.</p>
+  </div>
+
+  <div class="feature-card" onclick="loadData('trackingb')">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.VGBXy6y8CiGvmsEWfX5oZAHaDR?pid=Api&P=0&h=180">
+    <h4>Track Deliveries</h4>
+    <p>Check order status instantly.</p>
+  </div>
+
+</div>

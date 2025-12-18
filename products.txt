@@ -1,0 +1,61 @@
+<h2 style="font-family: Arial; color:#2c3e50; margin-bottom:15px;">Products</h2>
+
+<style>
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  .product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .product-card h3 {
+    margin-top: 12px;
+    font-size: 18px;
+    color: #333;
+  }
+</style>
+
+<div class="product-grid">
+  
+  <div class="product-card">
+    <img src="https://cdn.mos.cms.futurecdn.net/99B93aZbmkyWD6x52TXStd.jpg" alt="Smartphones">
+    <h3>Smartphones</h3>
+  </div>
+
+  <div class="product-card">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.zcgnnK53CMk_jlTpAKWoOgHaFj?pid=Api&P=0&h=180" alt="Laptops">
+    <h3>Laptops</h3>
+  </div>
+
+  <div class="product-card">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.a67TBZX_uCtxJrIJaIFEVgHaE8?pid=Api&P=0&h=180" alt="Fashion">
+    <h3>Fashion & Accessories</h3>
+  </div>
+
+  <div class="product-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.BO74gTspdex77Vsv2OspsQHaEK?pid=Api&P=0&h=180" alt="Home Appliances">
+    <h3>Home Appliances</h3>
+  </div>
+
+</div>

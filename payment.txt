@@ -1,0 +1,4 @@
+
+<h2>Payment</h2>
+<p>We accept Credit/Debit Cards, UPI, and Wallet Payments.</p>
+

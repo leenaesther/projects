@@ -1,0 +1,2 @@
+<h2>Compare Prices</h2>
+<p>Use our smart price comparison tool to get the best deals from multiple retailers.</p>

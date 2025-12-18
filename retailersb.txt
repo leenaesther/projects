@@ -1,0 +1,65 @@
+<h2 style="font-family: Arial; color:#2c3e50;">Browse Retailers</h2>
+
+<style>
+  .retail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .retail-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  .retail-card:hover {
+    transform: translateY(-6px);
+  }
+  .retail-card img {
+    width: 160px;
+    height: 70px;
+    object-fit: contain;
+  }
+</style>
+
+<div class="retail-grid">
+
+  <div class="retail-card">
+    <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png">
+    <h4>Amazon</h4>
+    <p>Biggest online shopping platform.</p>
+  </div>
+
+  <div class="retail-card">
+    <img src="https://1000logos.net/wp-content/uploads/2021/05/Flipkart-logo.png">
+    <h4>Flipkart</h4>
+    <p>Great discounts & offers.</p>
+  </div>
+
+  <div class="retail-card">
+    <img src="https://logos-world.net/wp-content/uploads/2020/05/Snapdeal-Logo.png">
+    <h4>Snapdeal</h4>
+    <p>Best for budget shopping.</p>
+  </div>
+
+  <div class="retail-card">
+    <img src="https://logos-world.net/wp-content/uploads/2020/11/Myntra-Logo.png">
+    <h4>Myntra</h4>
+    <p>Fashion & clothing hub.</p>
+  </div>
+
+  <div class="retail-card">
+    <img src="https://logos-world.net/wp-content/uploads/2020/11/Ajio-Logo.png">
+    <h4>Ajio</h4>
+    <p>Trendy fashion collection.</p>
+  </div>
+
+  <div class="retail-card">
+    <img src="https://seeklogo.com/images/C/croma-logo-0442C57ACD-seeklogo.com.png">
+    <h4>Croma</h4>
+    <p>Electronics and gadgets.</p>
+  </div>
+
+</div>

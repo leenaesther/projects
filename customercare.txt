@@ -1,0 +1,18 @@
+<h2>Customer Care</h2>
+
+<p>Contact us at: <b>support@eshopping.com</b> or call <b>+91-99999-99999</b>.</p>
+
+<p>If you have any issue or want to return a product, please type your concern below:</p>
+
+<textarea id="concernBox"
+          placeholder="Type your concern here..."
+          style="width:100%; height:130px; padding:12px; font-size:16px; border:1px solid #ccc; border-radius:8px; resize:vertical;"></textarea>
+
+<br><br>
+
+<button onclick="submitConcern()"
+        style="background:#4CAF50; color:white; padding:12px 24px; border:none; border-radius:8px; font-size:16px; cursor:pointer;">
+  Submit
+</button>
+
+<div id="responseMessage" style="margin-top:20px; font-size:18px;"></div>

@@ -1,0 +1,41 @@
+<h2 style="font-family: Arial; color:#2c3e50;">Compare Prices</h2>
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  th {
+    background: #4caf50;
+    color: white;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Amazon</th>
+    <th>Flipkart</th>
+    <th>Snapdeal</th>
+  </tr>
+  
+  <tr>
+    <td>iPhone 14</td>
+    <td>₹79,999</td>
+    <td>₹77,499</td>
+    <td>₹78,299</td>
+  </tr>
+
+  <tr>
+    <td>Smartwatch</td>
+    <td>₹2,499</td>
+    <td>₹2,299</td>
+    <td>₹2,350</td>
+  </tr>
+</table>

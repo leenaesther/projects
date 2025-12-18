@@ -1,0 +1,6 @@
+
+
+<h2>Home</h2>
+<p>Welcome to our E-Shopping platform! Explore the latest deals, offers, and discounts.</p>
+
+
